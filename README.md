@@ -1,125 +1,39 @@
-# HTML
+# 🎮 Assistente de Meta - NLW eSports
 
-- HyperText
-    - Texto puros, livros, revistas, jornais
-    - links: acessar outros documentos
-    - Imagens, vídeos, áudios
-- Markup
-    - Marcação
-    - Tags: <a> Link </a>
-    - Atríbutos: <a href="https://rocketseat.com.br">
-    - globais:  id, class, ...
-- Language
-    - Linguagem
-    - Sintaxe: maneira de escrever
+Projeto desenvolvido durante o evento **NLW Agents - Iniciante** da Rocketseat, entre **07/07/2025** e **25/07/2025**, com foco em criar um assistente de estratégias para games usando **Inteligência Artificial**.
 
-# HTTP
+![Preview do Projeto](assets/preview.jpg)
 
-- HyperText
-- Transfer
-    - Transferência
-- Protocol
-    - Protocolo
-    - Conjunto de regras
-- Methods HTTP (verbos): Get, Post, Patch/Put, Delete
-- Headers (cabeçalhos): Instruções/Informações extras para cada chamada
+## 📌 Sobre o projeto
+O **Assistente de Meta** é uma aplicação web que permite ao usuário fazer perguntas sobre estratégias, builds e dicas de jogos como:
 
-# URL
-- Uniform
-    - Uniforme
-- Resource
-    - Recurso
-- Locator
-    - Localizador
-Encontrar um recurso (html, css, js, pdf, png, jpg, mp4, mp3 ...)
-Endereço 
+- Valorant
+- League of Legends
+- CS:GO
 
-# IP
-- Internet
-    - Rede mundial de computadores
-- Protocol
-    - Conjunto de regras
-Endereço do computador
-rockeatset.com.br (domínio)
-123.32.1.23 (ip)
+O sistema consome a **API do Google Gemini** para gerar respostas curtas, diretas e atualizadas, seguindo regras pré-definidas.
 
-# DNS
-- Domain
-    - Domínio
-- Name
-    -Nome
-- Server
-  Servidor
+## 🚀 Tecnologias utilizadas
+- HTML5
+- CSS3
+- JavaScript
+- Google Gemini API
+- Showdown.js (conversão de Markdown para HTML)
 
-# CSS
+## 🧠 Funcionalidades
+- Campo para inserir sua **API Key** do Gemini
+- Seleção de jogo
+- Caixa de pergunta personalizada
+- Resposta processada em **Markdown**
+- Interface com animações e gradientes estilizados
 
-- Cascading
-    - Cascata
-    - Regras das escritas
-    - Hierarquia
-    - Especificidade
-- Style
-    - Estilo
-- Sheet
-    - Folha
+## ▶ Como executar
+1. **Baixe ou clone este repositório**  
+2. Abra o arquivo `index.html` no navegador  
+3. Informe sua **API Key** do Gemini  
+4. Escolha um jogo, faça sua pergunta e receba a resposta!  
 
-De um arquivo que terá na sua síntaxe, declarações, propriedade e valores.
-A partir disso, o HTML é impactado visualmente.
+## 📜 Certificado
+Este projeto foi desenvolvido durante o evento **NLW Agents - Iniciante** da Rocketseat, totalizando **5 horas** de imersão.
 
-# JS
-
-- Linguagem de programação
-- Browsers
-- Input -> Process -> Output
-- Variáveis
-- Function
-    - Agrupamento e reuso de código
-    - Sequencia lógica
-    - Saída 
-- Gemini (IA): esperar uma resposta
-- Mexer no meu navegador
-- Estrutura de dados
-- Estrutura de decisão
-- Algoritmo: sequencia de passos, de maneira ordenada, a fim de chegar a alguma conclusão (limitada)
-- Lógica (Pensamento computacional)
-    - Abstração
-    - Decomposição
-    - Algoritmo
-    - Reconhecimento de padrão
-- Tipos de dados
-    - Number (números)
-    - String (textos) (" ", ' ', ` `)
-    - Boolean: true | false
-    - Objects
-
-# DOM
-
-- Document
-- Object
-- Model
-
-# API
-- Application
-- Programming
-- Interface
-- JSON: JavaScript Object Notation
-
-# CDN
-- Content
-- Delivery
-- Network
-
-# LLM
-- Large 
-- Language
-- Model
-- Gemini, OpenAI (chatGPT), Anthropic (Claude) ...
-
-# Agentes AI
-- Tools (ferramentas): permitem uso de código, ou apps, ou qualquer informação extra.
-- Melhor contexto
-
-# Engenharia de prompt
-- One shot: uma única pergunta sem muito contexto
-- Few shot: é apresentado exemplos do que se espera
-.- Chain of Thought: cadeia de pensamento para a IA responder gradativamente conforme a instrução.
+📄 [Ver certificado](https://app.rocketseat.com.br/certificates/e1e7bf7a-5809-4f97-a2ec-0b8d6d635b27)
